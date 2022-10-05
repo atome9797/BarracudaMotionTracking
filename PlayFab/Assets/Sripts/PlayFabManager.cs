@@ -10,6 +10,7 @@ using UnityEngine.SceneManagement;
 public class PlayFabManager : SingletonBehaviour<PlayFabManager>
 {
     public TMP_InputField EmailInput, PasswordInput, UsernameInput;
+    public string UserId;
     
 
     //로그인
@@ -34,6 +35,8 @@ public class PlayFabManager : SingletonBehaviour<PlayFabManager>
     void OnLoginSuccess(LoginResult result)
     {
         print("로그인 성공");
+        UserId = result.PlayFabId;
+
         SceneManager.LoadScene("Main");
     }
 

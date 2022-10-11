@@ -1,12 +1,17 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Android;
+using TMPro;
+using UnityEngine.UI;
 
 public class CameraManager : MonoBehaviour
 {
     WebCamTexture camTexture;
 
     public RawImage cameraViewImage;
+    public TextMeshProUGUI ScoreText;
+    private float timer = 0f;
+    public static bool RecordSwitch = false;
 
     private void Start()
     {
@@ -15,6 +20,20 @@ public class CameraManager : MonoBehaviour
         {
             //권한이 없을때 권한 부여
             Permission.RequestUserPermission(Permission.Camera);
+        }
+    }
+
+    private void Update()
+    {
+        if(RecordSwitch && timer <= 15f)
+        {
+            ScoreText.text = $"{(int)timer}";
+            timer += Time.deltaTime;
+        }
+        else if(RecordSwitch && timer > 15f)
+        {
+            RecordSwitch = false;
+            timer = 0f;
         }
     }
 

@@ -241,6 +241,8 @@ namespace Vimeo
 
         public void DrawVimeoAuth(VimeoSettings auth)
         {
+            auth.vimeoToken = "fd5e35ae164f67e8945c5a7685497f48";
+
             var so = serializedObject;
 
             if (!auth.Authenticated() || !auth.vimeoSignIn) {
@@ -263,8 +265,8 @@ namespace Vimeo
                     }
 
                     GUI.backgroundColor = Color.green;
+                    auth.SignIn(auth.vimeoToken);
                     if (GUILayout.Button("Sign into Vimeo", GUILayout.Height(30))) {
-                        auth.SignIn(auth.vimeoToken);
                         GUI.FocusControl(null);
                     }
                 }

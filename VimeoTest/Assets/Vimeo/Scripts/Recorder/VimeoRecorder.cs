@@ -39,11 +39,15 @@ namespace Vimeo.Recorder
             }
         }
 
+
+
         public void BeginRecording()
         {
             if (!isRecording) {
                 encoder.BeginRecording();
                 isRecording = true;
+                //타이머 15초 재도록 하기
+                CameraManager.RecordSwitch = true;
             }
         }
 

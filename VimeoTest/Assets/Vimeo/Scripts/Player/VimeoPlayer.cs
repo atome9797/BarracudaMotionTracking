@@ -363,13 +363,13 @@ namespace Vimeo.Player
             api.OnRequestComplete -= VideoMetadataLoad;
 
             if (json["error"] == null) {
-                /*if (json["user"] != null && json["user"]["account"].Value == "basic") {
+                if (json["user"] != null && json["user"]["account"].Value == "basic") {
                     Debug.LogError("[VimeoPlayer] You do not have permission to stream videos. You must be a Vimeo Pro or Business customer. https://vimeo.com/upgrade");
                 }
 
                 if ((json["play"] == null || json["play"]["progressive"] == null) && json["files"] == null) {
                     Debug.LogError("[VimeoPlayer] You do not have permission to access to this video. You must be a Vimeo Pro or Business customer and use videos from your own account. https://vimeo.com/upgrade");
-                }*/
+                }
 
                 vimeoVideo = new VimeoVideo(json);
 

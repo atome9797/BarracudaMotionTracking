@@ -13,14 +13,28 @@ namespace UnityEngine.Recorder.Input
         static object m_InitialSizeObj;
         public static int m_ModifiedResolutionCount;
 
+        /*        public static EditorWindow GetMainGameView()
+                {
+                    Type T = Type.GetType("UnityEditor.GameView,UnityEditor");
+                    MethodInfo GetMainGameView = T.GetMethod("GetMainGameView", BindingFlags.NonPublic | BindingFlags.Static);
+                    System.Object Res = GetMainGameView.Invoke(null, null);
+                    return (EditorWindow)Res;
+                }*/
+
         public static EditorWindow GetMainGameView()
         {
-            Type T = Type.GetType("UnityEditor.GameView,UnityEditor");
-            MethodInfo GetMainGameView = T.GetMethod("GetMainGameView", BindingFlags.NonPublic | BindingFlags.Static);
-            System.Object Res = GetMainGameView.Invoke(null, null);
-            return (EditorWindow)Res;
+#if UNITY_2019 || UNITY_2020
+            var assembly = typeof(EditorWindow).Assembly;
+            var type = assembly.GetType("UnityEditor.GameView");
+            var gameview = EditorWindow.GetWindow(type);
+            return gameview;
+#else
+        System.Type T = System.Type.GetType("UnityEditor.GameView,UnityEditor");
+        System.Reflection.MethodInfo GetMainGameView = T.GetMethod("GetMainGameView", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Static);
+        System.Object Res = GetMainGameView.Invoke(null, null);
+        return (EditorWindow)Res;
+#endif
         }
-
 
         public static void GetGameRenderSize(out int width, out int height)
         {

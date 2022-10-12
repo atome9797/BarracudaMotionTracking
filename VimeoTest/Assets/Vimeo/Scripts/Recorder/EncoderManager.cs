@@ -49,6 +49,7 @@ namespace Vimeo.Recorder
 #endif // MEDIA_ENCODER_SUPPORT
             } else if (_recorder.encoderType == EncoderType.AVProMovieCapture) {
 #if VIMEO_AVPRO_CAPTURE_SUPPORT
+
                 _avproEncoder = r.avproEncoder;
 #endif // VIMEO_AVPRO_CAPTURE_SUPPORT
             }

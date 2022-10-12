@@ -60,12 +60,17 @@ namespace Vimeo.Recorder
         {
             isRecording = true;
 
+            Debug.Log("대기중");
+
             if (_recorder.encoderType == EncoderType.MediaEncoder) {
+                Debug.Log("버전 1");
 #if MEDIA_ENCODER_SUPPORT                                
                 _vimeoEncoder.BeginRecording();
 #endif // MEDIA_ENCODER_SUPPORT            
             } else {
+                Debug.Log("버전 2");
 #if VIMEO_AVPRO_CAPTURE_SUPPORT
+                Debug.Log("버전 2 내부");
                 _avproEncoder.StartCapture();
 #endif // VIMEO_AVPRO_CAPTURE_SUPPORT      
             }

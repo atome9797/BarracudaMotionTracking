@@ -18,6 +18,12 @@
             "deviceId": "LGMG600Lbbc7458d",
             "name": "com.DefaultCompany.VimeoTest",
             "processId": 32191,
+            "exited": true
+        },
+        {
+            "deviceId": "LGMG600Lbbc7458d",
+            "name": "com.DefaultCompany.VimeoTest",
+            "processId": 25483,
             "exited": false
         }
     ],

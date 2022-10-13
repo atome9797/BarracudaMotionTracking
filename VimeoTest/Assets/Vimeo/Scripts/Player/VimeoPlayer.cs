@@ -38,7 +38,7 @@ namespace Vimeo.Player
         public VimeoVideo vimeoVideo;
 
         public bool loadingVideoMetadata = false;
-        private bool playVideoAfterLoad = false;
+        private bool playVideoAfterLoad = true;
         private bool videoControllerReady = false;
 
         public string m_file_url;

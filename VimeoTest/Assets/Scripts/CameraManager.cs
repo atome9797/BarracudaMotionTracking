@@ -32,10 +32,8 @@ public class CameraManager : MonoBehaviour
         }
         else if(RecordSwitch && timer > 15f)
         {
-            ScoreText.text = $"{(int)timer}";
             RecordSwitch = false;
             timer = 0f;
-
         }
     }
 

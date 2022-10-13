@@ -216,7 +216,7 @@ namespace Vimeo.Player
                 }
                 
                 if (videoPlayerType == VideoPlayerType.AVProVideo && mediaPlayer != null) {
-                    mediaPlayer.OpenMedia(RenderHeads.Media.AVProVideo.MediaPathType.AbsolutePathOrURL, m_file_url, autoPlay || playVideoAfterLoad);
+                    mediaPlayer.OpenVideoFromFile(RenderHeads.Media.AVProVideo.MediaPlayer.FileLocation.AbsolutePathOrURL, m_file_url, autoPlay || playVideoAfterLoad);
                 } 
 #endif // VIMEO_AVPRO_VIDEO_SUPPORT
 #if VIMEO_DEPTHKIT_SUPPORT

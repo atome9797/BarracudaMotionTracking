@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using PlayFab;
 using PlayFab.ClientModels;
 using UnityEngine.UI;
@@ -16,21 +17,6 @@ public class InputManager : MonoBehaviour
         GetUserinfo();
     }
 
-    //사용자 데이터 세팅
-    public void SetStat()
-    {
-        var request = new UpdateUserDataRequest() { Data = new Dictionary<string, string>() { { "A", "AA" }, { "B", "BB" } } };
-        PlayFabClientAPI.UpdateUserData(request, (result) => print("데이터 저장 성공"), (error) => print("데이터 저장 실패"));
-    }
-
-    public void GetStat()
-    {
-        var request = new GetUserDataRequest() { PlayFabId = PlayFabManager.Instance.UserId };
-        PlayFabClientAPI.GetUserData(request, (result) => {
-            foreach (var eachData in result.Data)
-                print(eachData.Key + " : " + eachData.Value.Value);
-        }, (error) => print("데이터 불러오기 실패"));
-    }
 
     //유저 정보 가져오기
     void GetUserinfo()
@@ -49,8 +35,6 @@ public class InputManager : MonoBehaviour
         print("유저 정보 불러오기 실패");
     }
 
-
-
-
+   
 
 }

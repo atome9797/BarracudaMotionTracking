@@ -14,7 +14,7 @@ namespace Vimeo.Recorder
         public event RecordAction OnUploadError;
 
         public VimeoPublisher publisher;
-
+        
         public bool isRecording = false;
         public bool isUploading = false;
         public float uploadProgress = 0;
@@ -38,8 +38,6 @@ namespace Vimeo.Recorder
                 BeginRecording();
             }
         }
-
-
 
         public void BeginRecording()
         {

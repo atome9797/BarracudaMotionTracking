@@ -1060,6 +1060,7 @@ namespace RenderHeads.Media.AVProMovieCapture.Editor
 
 		private void StartCapture()
 		{
+			
 			_lastFileSize = 0;
 			_lastEncodedSeconds = 0;
 			_lastEncodedMinutes = 0;

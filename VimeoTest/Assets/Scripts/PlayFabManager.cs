@@ -43,7 +43,7 @@ public class PlayFabManager : SingletonBehaviour<PlayFabManager>
     {
         print("로그인 성공");
         UserId = result.PlayFabId;
-
+        UpdateVideoId();
         SceneManager.LoadScene("MenuScene");
     }
 
@@ -75,7 +75,7 @@ public class PlayFabManager : SingletonBehaviour<PlayFabManager>
         //비디오 인덱스 초기화
         int index = 0;
         VideoIndex = 0;
-        VideoTotalIndex = videoList.Count - 1;
+        videoList = new Dictionary<int, int>();
         
         var request = new GetUserDataRequest() { PlayFabId = UserId };
         PlayFabClientAPI.GetUserData(request, (result) => {
@@ -84,12 +84,16 @@ public class PlayFabManager : SingletonBehaviour<PlayFabManager>
                 print(eachData.Key + " : " + eachData.Value.Value);
 
                 //비디오 리스트 담기
-                videoList = new Dictionary<int, int>();
                 videoList.Add(index, int.Parse(eachData.Key));
 
                 index++;
             }
+
+            VideoTotalIndex = videoList.Count - 1;
+
         }, (error) => print("데이터 불러오기 실패"));
+
+    
     }
 
     //이전 동영상 아이디

@@ -98,7 +98,11 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 05e1f6be3ae5ca645b1d453cf0bba380, type: 2}
+=======
   m_LightingSettings: {fileID: 4890085278179872738, guid: 96908fc0ce8af084fb7fb88856633a0e, type: 2}
+>>>>>>> 296dc88e45c2f1d30b407f37838a6e56b96eb1b5
 --- !u!1 &11
 GameObject:
   m_ObjectHideFlags: 0

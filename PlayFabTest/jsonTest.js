@@ -69,14 +69,6 @@ let milsec = now_time.getMilliseconds(); //밀리초
 console.log("시간" + year + ":" + mon + ":" + date + ":" +hour+ ":"+ min + ":" +sec + ":" + milsec);
 
 
-
-
-
-
-
-
-
-
 //CRUD 테스트
 
 //data.push(); //객체 insert
@@ -89,7 +81,7 @@ console.log("시간" + year + ":" + mon + ":" + date + ":" +hour+ ":"+ min + ":"
 var jsonPaser = [];
 
 //데이터 배열 추가
-function insertData(vimeo_id, user_id, user_name, video_name, video_upload_date)
+function insertData(vimeo_id, user_id, user_name, video_name, video_upload_date, category_id_list)
 {
     let json_index = jsonPaser.length;
 
@@ -99,7 +91,8 @@ function insertData(vimeo_id, user_id, user_name, video_name, video_upload_date)
         "user_name" : user_name,
         "index" : json_index,
         "video_name": video_name,
-        "video_upload_date":video_upload_date
+        "video_upload_date":video_upload_date,
+        "category_id_list" : category_id_list
     });
 }
 
@@ -116,9 +109,10 @@ function input()
         let min = now_time.getMinutes(); //분
         let sec = now_time.getSeconds(); //초
         let milsec = now_time.getMilliseconds(); //밀리초
-        let currentTime = "" + year + mon + date + hour + min + sec + milsec;
+        let currentTime = "" + year + ":" + mon + ":" + date + "::" + hour + ":" + min + ":" + sec;
         console.log(currentTime);
-        insertData(i, "hungame", "김영훈", "비디오넘버" + i , currentTime);
+        let categoryList = [10,11,12];
+        insertData(i, "hungame", "김영훈", "비디오넘버" + i , currentTime, categoryList);
     }
 }
 
@@ -156,7 +150,8 @@ function searchData(data_time, data_index, get_member)
                 "user_name" : jsonPaser[i].user_name,
                 "index" : jsonPaser[i].index,
                 "video_name": jsonPaser[i].video_name,
-                "video_upload_date":jsonPaser[i].video_upload_date
+                "video_upload_date":jsonPaser[i].video_upload_date,
+                "category_id_list" : jsonPaser[i].category_id_list
             });
             count++;
         }

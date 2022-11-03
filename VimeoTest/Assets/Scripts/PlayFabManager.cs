@@ -6,6 +6,7 @@ using PlayFab.ClientModels;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System;
 
 public class PlayFabManager : SingletonBehaviour<PlayFabManager>
 {
@@ -93,7 +94,6 @@ public class PlayFabManager : SingletonBehaviour<PlayFabManager>
 
         }, (error) => print("데이터 불러오기 실패"));
 
-    
     }
 
     //이전 동영상 아이디

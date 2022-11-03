@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657892, g: 0.4964128, b: 0.5748173, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748171, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -260,7 +260,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoToken
-      value: fd5e35ae164f67e8945c5a7685497f48
+      value: 7502fc420920746895eb3ba0c901aa92
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: mediaPlayer
@@ -272,11 +272,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideoId
-      value: 759722536
+      value: 761706272
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: currentVideo.id
-      value: 759722536
+      value: 761706272
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: videoPlayerType
@@ -284,23 +284,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: currentFolder.id
-      value: 0
+      value: 13128168
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: currentVideo.uri
-      value: /videos/759722536
+      value: /videos/761706272
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: currentFolder.uri
-      value: recent
+      value: /users/172310219/projects/13128168
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: currentVideo.name
-      value: Unity Recording (759722536)
+      value: Unity Recording Test (761706272)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: currentFolder.name
-      value: Most recent videos
+      value: Projects / Kyungil
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: selectedResolution
@@ -308,11 +308,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.size
-      value: 44
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoFolders.Array.size
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: currentVideo.stereoFormat
@@ -320,219 +320,235 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[1].id
-      value: 759802172
+      value: 761706272
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[2].id
-      value: 759800492
+      value: 761362571
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[3].id
-      value: 759800459
+      value: 761334867
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[4].id
-      value: 759800174
+      value: 759796142
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[5].id
-      value: 759800137
+      value: 759794829
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[6].id
-      value: 759799885
+      value: 760143008
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[7].id
-      value: 759797889
+      value: 760142250
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[8].id
-      value: 759767681
+      value: 760121419
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[9].id
-      value: 759746121
+      value: 760120592
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoFolders.Array.data[3].id
-      value: 13056004
+      value: 13128168
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoFolders.Array.data[4].id
-      value: 13058764
+      value: 9808928
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoFolders.Array.data[5].id
+      value: 9808937
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[10].id
-      value: 759738977
+      value: 760120329
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[11].id
-      value: 759724339
+      value: 760120178
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[12].id
-      value: 759722815
+      value: 760119867
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[13].id
-      value: 759722536
+      value: 759809629
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[14].id
-      value: 759721701
+      value: 759807228
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[15].id
-      value: 759718909
+      value: 759802172
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[16].id
-      value: 759717417
+      value: 759767681
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[17].id
-      value: 759716712
+      value: 759746121
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[18].id
-      value: 759715170
+      value: 759738977
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[19].id
-      value: 759713852
+      value: 759724339
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[1].uri
-      value: /videos/759802172
+      value: /videos/761706272
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[20].id
-      value: 759713588
+      value: 759722815
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[21].id
-      value: 759399479
+      value: 759722536
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[22].id
-      value: 759397634
+      value: 759721701
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[23].id
-      value: 759374542
+      value: 759718909
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[24].id
-      value: 759372442
+      value: 759717417
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[25].id
-      value: 759347004
+      value: 759716712
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[26].id
-      value: 759275601
+      value: 759715170
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[27].id
-      value: 759275047
+      value: 759713852
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[28].id
-      value: 759269934
+      value: 759713588
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[29].id
-      value: 759268934
+      value: 759399479
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[2].uri
-      value: /videos/759800492
+      value: /videos/761362571
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[30].id
-      value: 759019801
+      value: 759397634
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[31].id
-      value: 759000934
+      value: 759374542
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[32].id
-      value: 759000295
+      value: 759268934
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[33].id
-      value: 758995229
+      value: 759019801
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[34].id
-      value: 758995181
+      value: 759000934
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[35].id
-      value: 758994539
+      value: 759000295
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[36].id
-      value: 758992943
+      value: 758995229
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[37].id
-      value: 758992357
+      value: 758995181
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[38].id
-      value: 758992074
+      value: 758994539
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[39].id
-      value: 758991960
+      value: 758992943
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[3].uri
-      value: /videos/759800459
+      value: /videos/761334867
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[40].id
-      value: 758991891
+      value: 758992357
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[41].id
-      value: 758991863
+      value: 758992074
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[42].id
-      value: 758981671
+      value: 758991960
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[43].id
+      value: 758991891
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoVideos.Array.data[44].id
+      value: 758991863
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoVideos.Array.data[45].id
+      value: 758981671
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoVideos.Array.data[46].id
       value: 758967032
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[4].uri
-      value: /videos/759800174
+      value: /videos/759796142
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[5].uri
-      value: /videos/759800137
+      value: /videos/759794829
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[6].uri
-      value: /videos/759799885
+      value: /videos/760143008
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[7].uri
-      value: /videos/759797889
+      value: /videos/760142250
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[8].uri
-      value: /videos/759767681
+      value: /videos/760121419
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[9].uri
-      value: /videos/759746121
+      value: /videos/760120592
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoFolders.Array.data[1].uri
@@ -544,11 +560,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoFolders.Array.data[3].uri
-      value: /users/186235016/projects/13056004
+      value: /users/172310219/projects/13128168
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoFolders.Array.data[4].uri
-      value: /users/186235016/projects/13058764
+      value: /users/172310219/projects/9808928
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoFolders.Array.data[5].uri
+      value: /users/172310219/projects/9808937
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[0].name
@@ -556,175 +576,187 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[10].uri
-      value: /videos/759738977
+      value: /videos/760120329
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[11].uri
-      value: /videos/759724339
+      value: /videos/760120178
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[12].uri
-      value: /videos/759722815
+      value: /videos/760119867
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[13].uri
-      value: /videos/759722536
+      value: /videos/759809629
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[14].uri
-      value: /videos/759721701
+      value: /videos/759807228
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[15].uri
-      value: /videos/759718909
+      value: /videos/759802172
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[16].uri
-      value: /videos/759717417
+      value: /videos/759767681
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[17].uri
-      value: /videos/759716712
+      value: /videos/759746121
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[18].uri
-      value: /videos/759715170
+      value: /videos/759738977
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[19].uri
-      value: /videos/759713852
+      value: /videos/759724339
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[1].name
-      value: Unity Recording Test (759802172)
+      value: Unity Recording Test (761706272)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[20].uri
-      value: /videos/759713588
+      value: /videos/759722815
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[21].uri
-      value: /videos/759399479
+      value: /videos/759722536
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[22].uri
-      value: /videos/759397634
+      value: /videos/759721701
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[23].uri
-      value: /videos/759374542
+      value: /videos/759718909
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[24].uri
-      value: /videos/759372442
+      value: /videos/759717417
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[25].uri
-      value: /videos/759347004
+      value: /videos/759716712
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[26].uri
-      value: /videos/759275601
+      value: /videos/759715170
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[27].uri
-      value: /videos/759275047
+      value: /videos/759713852
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[28].uri
-      value: /videos/759269934
+      value: /videos/759713588
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[29].uri
-      value: /videos/759268934
+      value: /videos/759399479
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[2].name
-      value: Unity Recording Test (759800492)
+      value: Unity Recording (761362571)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[30].uri
-      value: /videos/759019801
+      value: /videos/759397634
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[31].uri
-      value: /videos/759000934
+      value: /videos/759374542
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[32].uri
-      value: /videos/759000295
+      value: /videos/759268934
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[33].uri
-      value: /videos/758995229
+      value: /videos/759019801
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[34].uri
-      value: /videos/758995181
+      value: /videos/759000934
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[35].uri
-      value: /videos/758994539
+      value: /videos/759000295
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[36].uri
-      value: /videos/758992943
+      value: /videos/758995229
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[37].uri
-      value: /videos/758992357
+      value: /videos/758995181
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[38].uri
-      value: /videos/758992074
+      value: /videos/758994539
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[39].uri
-      value: /videos/758991960
+      value: /videos/758992943
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[3].name
-      value: Unity Recording Test (759800459)
+      value: Unity Recording Test (761334867)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[40].uri
-      value: /videos/758991891
+      value: /videos/758992357
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[41].uri
-      value: /videos/758991863
+      value: /videos/758992074
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[42].uri
-      value: /videos/758981671
+      value: /videos/758991960
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[43].uri
+      value: /videos/758991891
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoVideos.Array.data[44].uri
+      value: /videos/758991863
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoVideos.Array.data[45].uri
+      value: /videos/758981671
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoVideos.Array.data[46].uri
       value: /videos/758967032
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[4].name
-      value: Untitled (759800174)
+      value: Unity Recording Test (759796142)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[5].name
-      value: Unity Recording Test (759800137)
+      value: Unity Recording Test (759794829)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[6].name
-      value: Unity Recording Test (759799885)
+      value: Unity Recording Test (760143008)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[7].name
-      value: Unity Recording Test (759797889)
+      value: Unity Recording Test (760142250)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[8].name
-      value: Unity Recording Test (759767681)
+      value: Unity Recording Test (760121419)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[9].name
-      value: Unity Recording Test (759746121)
+      value: Unity Recording Test (760120592)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoFolders.Array.data[0].name
@@ -740,146 +772,162 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoFolders.Array.data[3].name
-      value: Projects / test
+      value: Projects / Kyungil
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoFolders.Array.data[4].name
-      value: Projects / ViemoTester1
+      value: "Projects / \uB358\uBE60"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoFolders.Array.data[5].name
+      value: "Projects / \uB358\uBE60\uBC84\uADF8"
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[10].name
-      value: Unity Recording (759738977)
+      value: Unity Recording Test (760120329)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[11].name
-      value: Untitled (759724339)
+      value: Unity Recording Test (760120178)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[12].name
-      value: Unity Recording (759722815)
+      value: Unity Recording Test (760119867)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[13].name
-      value: Unity Recording (759722536)
+      value: Unity Recording Test (759809629)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[14].name
-      value: Unity Recording (759721701)
+      value: Unity Recording Test (759807228)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[15].name
-      value: Unity Recording (759718909)
+      value: Unity Recording Test (759802172)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[16].name
-      value: Unity Recording (759717417)
+      value: Unity Recording Test (759767681)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[17].name
-      value: Unity Recording (759716712)
+      value: Unity Recording Test (759746121)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[18].name
-      value: Unity Recording (759715170)
+      value: Unity Recording (759738977)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[19].name
-      value: Unity Recording (759713852)
+      value: Untitled (759724339)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[20].name
-      value: Unity Recording (759713588)
+      value: Unity Recording (759722815)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[21].name
-      value: Unity Recording (759399479)
+      value: Unity Recording (759722536)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[22].name
-      value: Unity Recording (759397634)
+      value: Unity Recording (759721701)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[23].name
-      value: Unity Recording (759374542)
+      value: Unity Recording (759718909)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[24].name
-      value: Unity Recording (759372442)
+      value: Unity Recording (759717417)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[25].name
-      value: Unity Recording (759347004)
+      value: Unity Recording (759716712)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[26].name
-      value: Untitled (759275601)
+      value: Unity Recording (759715170)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[27].name
-      value: Unity Recording (759275047)
+      value: Unity Recording (759713852)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[28].name
-      value: Unity Recording (759269934)
+      value: Unity Recording (759713588)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[29].name
-      value: Unity Recording (759268934)
+      value: Unity Recording (759399479)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[30].name
-      value: Unity Recording (759019801)
+      value: Unity Recording (759397634)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[31].name
-      value: Unity Recording (759000934)
+      value: Unity Recording (759374542)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[32].name
-      value: Unity Recording (759000295)
+      value: Unity Recording (759268934)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[33].name
-      value: Untitled (758995229)
+      value: Unity Recording (759019801)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[34].name
-      value: Unity Recording (758995181)
+      value: Unity Recording (759000934)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[35].name
-      value: Unity Recording (758994539)
+      value: Unity Recording (759000295)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[36].name
-      value: Unity Recording (758992943)
+      value: Untitled (758995229)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[37].name
-      value: Unity Recording (758992357)
+      value: Unity Recording (758995181)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[38].name
-      value: Unity Recording (758992074)
+      value: Unity Recording (758994539)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[39].name
-      value: Untitled (758991960)
+      value: Unity Recording (758992943)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[40].name
-      value: Unity Recording (758991891)
+      value: Unity Recording (758992357)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[41].name
-      value: Untitled (758991863)
+      value: Unity Recording (758992074)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[42].name
-      value: Unity Recording (758981671)
+      value: Untitled (758991960)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[43].name
+      value: Unity Recording (758991891)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoVideos.Array.data[44].name
+      value: Untitled (758991863)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoVideos.Array.data[45].name
+      value: Unity Recording (758981671)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoVideos.Array.data[46].name
       value: Unity Recording (758967032)
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
@@ -1056,6 +1104,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
       propertyPath: vimeoVideos.Array.data[43].stereoFormat
+      value: mono
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoVideos.Array.data[44].stereoFormat
+      value: mono
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoVideos.Array.data[45].stereoFormat
+      value: mono
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoVideos.Array.data[46].stereoFormat
       value: mono
       objectReference: {fileID: 0}
     m_RemovedComponents: []

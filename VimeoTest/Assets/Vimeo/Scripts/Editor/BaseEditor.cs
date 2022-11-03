@@ -241,7 +241,7 @@ namespace Vimeo
 
         public void DrawVimeoAuth(VimeoSettings auth)
         {
-            auth.vimeoToken = "fd5e35ae164f67e8945c5a7685497f48";
+            auth.vimeoToken = "7502fc420920746895eb3ba0c901aa92";
 
             var so = serializedObject;
 

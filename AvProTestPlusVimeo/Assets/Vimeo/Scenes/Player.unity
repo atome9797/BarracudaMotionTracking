@@ -258,6 +258,82 @@ PrefabInstance:
       propertyPath: uid
       value: 663c6c3a-59a0-40c2-baa6-5d3422d7c59b
       objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoToken
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoSignIn
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: videoPlayerType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: currentFolder.name
+      value: ---- Find a video ----
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoFolders.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoFolders.Array.data[3].id
+      value: 13128168
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoFolders.Array.data[4].id
+      value: 9808928
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoFolders.Array.data[5].id
+      value: 9808937
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoFolders.Array.data[1].uri
+      value: custom
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoFolders.Array.data[2].uri
+      value: recent
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoFolders.Array.data[3].uri
+      value: /users/172310219/projects/13128168
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoFolders.Array.data[4].uri
+      value: /users/172310219/projects/9808928
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoFolders.Array.data[5].uri
+      value: /users/172310219/projects/9808937
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoFolders.Array.data[0].name
+      value: ---- Find a video ----
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoFolders.Array.data[1].name
+      value: Get video by ID or URL
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoFolders.Array.data[2].name
+      value: Most recent videos
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoFolders.Array.data[3].name
+      value: Projects / Kyungil
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoFolders.Array.data[4].name
+      value: "Projects / \uB358\uBE60"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114529228338408296, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
+      propertyPath: vimeoFolders.Array.data[5].name
+      value: "Projects / \uB358\uBE60\uBC84\uADF8"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f54a9bafa49ec444098b519b1e4771c4, type: 3}
 --- !u!1 &709353375

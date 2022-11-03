@@ -8,13 +8,17 @@ public class CameraManager : MonoBehaviour
 
     public RawImage cameraViewImage;
 
+    
     private void Start()
     {
-        //카메라 권한 부여
-        if (!Permission.HasUserAuthorizedPermission(Permission.Camera))
+/*        if (!Permission.HasUserAuthorizedPermission(Permission.Camera))
         {
-            //권한이 없을때 권한 부여
             Permission.RequestUserPermission(Permission.Camera);
+        }*/
+
+        if (!Permission.HasUserAuthorizedPermission(Permission.Microphone))
+        {
+            Permission.RequestUserPermission(Permission.Microphone);
         }
     }
 

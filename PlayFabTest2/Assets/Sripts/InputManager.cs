@@ -7,6 +7,14 @@ using UnityEngine.UI;
 using TMPro;
 using PlayFab.AdminModels;
 
+[SerializeField]
+public class testData
+{
+    public int test_id;
+    public string test_name;
+}
+
+
 public class InputManager : MonoBehaviour
 {
     public TMP_InputField Input1, Input2, Input3;
@@ -49,7 +57,7 @@ public class InputManager : MonoBehaviour
     {
         var request = new ExecuteCloudScriptRequest
         {
-            FunctionName = "getTestData"
+            FunctionName = "InitCategoryData"
         };
 
         PlayFabClientAPI.ExecuteCloudScript(request, OngetTestDataSuccess, OngetTestDataError);
@@ -75,14 +83,28 @@ public class InputManager : MonoBehaviour
 
     public void DeleteTestData()
     {
-        var request = new SetTitleDataAndOverridesRequest();
-        request.OverrideLabel = "post";
+        /*        var request = new SetTitleDataAndOverridesRequest();
+                request.OverrideLabel = "post";
+                var TitleDataKeyValueList = new List<TitleDataKeyValue>();
+                var TitleDataKeyValue = new TitleDataKeyValue();
+                TitleDataKeyValue.Key = "789798";
+                TitleDataKeyValue.Value = null;
+                TitleDataKeyValueList.Add(TitleDataKeyValue);
+                request.KeyValues = TitleDataKeyValueList;
+
+                PlayFabAdminAPI.SetTitleDataAndOverrides(request, OnGetsetTestData2Success, OnGetsetTestData2Failure);*/
+
         var TitleDataKeyValueList = new List<TitleDataKeyValue>();
         var TitleDataKeyValue = new TitleDataKeyValue();
-        TitleDataKeyValue.Key = "789798";
-        TitleDataKeyValue.Value = null;
+        TitleDataKeyValue.Key = "761706272";
+        TitleDataKeyValue.Value = "asdasd";
         TitleDataKeyValueList.Add(TitleDataKeyValue);
-        request.KeyValues = TitleDataKeyValueList;
+
+        var request = new SetTitleDataAndOverridesRequest()
+        {
+            OverrideLabel = "post",
+            KeyValues = TitleDataKeyValueList
+        };
 
         PlayFabAdminAPI.SetTitleDataAndOverrides(request, OnGetsetTestData2Success, OnGetsetTestData2Failure);
     }
@@ -90,12 +112,19 @@ public class InputManager : MonoBehaviour
 
     public void setTestData2()
     {
+
+        testData _testData = new testData();
+        _testData.test_id = 10;
+        _testData.test_name = "±è¿µÈÆ";
+
+        string json = JsonUtility.ToJson(_testData);
+
         var request = new SetTitleDataAndOverridesRequest();
         request.OverrideLabel = "post";
         var TitleDataKeyValueList = new List<TitleDataKeyValue>();
         var TitleDataKeyValue = new TitleDataKeyValue();
-        TitleDataKeyValue.Key = "7897981";
-        TitleDataKeyValue.Value = "qweqweqwe";
+        TitleDataKeyValue.Key = "7897990";
+        TitleDataKeyValue.Value = json;
         TitleDataKeyValueList.Add(TitleDataKeyValue);
         request.KeyValues = TitleDataKeyValueList;
 

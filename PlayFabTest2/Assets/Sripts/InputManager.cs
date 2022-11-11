@@ -6,6 +6,7 @@ using PlayFab.ClientModels;
 using UnityEngine.UI;
 using TMPro;
 using PlayFab.AdminModels;
+using PlayFab.Json;
 
 [SerializeField]
 public class testData
@@ -19,11 +20,48 @@ public class InputManager : MonoBehaviour
 {
     public TMP_InputField Input1, Input2, Input3;
     public Text UserName;
+    public static List<string> FeedLikeList = new List<string>();
 
     void Start()
     {
         GetUserinfo();
     }
+
+    //해당 데이터 불러오기
+    public static void getLikeList()
+    {
+        var request = new ExecuteCloudScriptRequest
+        {
+            FunctionName = "GetUserInternalDataTest"
+        };
+
+        PlayFabClientAPI.ExecuteCloudScript(request, OngetLikeListSuccess, OngetLikeListError);
+    }
+
+    public static void OngetLikeListSuccess(PlayFab.ClientModels.ExecuteCloudScriptResult result)
+    {
+        if (result.FunctionResult.ToString() != "ResponseFail")
+        {
+            JsonArray jsonArray = new JsonArray();
+            jsonArray = (JsonArray)result.FunctionResult;
+            for (int i = 0; i < jsonArray.Count; i++)
+            {
+                Debug.Log(jsonArray[i].ToString());
+            }
+        }else
+        {
+            Debug.Log("데이터 못불러옴");
+        }
+
+
+    }
+
+
+    public static void OngetLikeListError(PlayFabError error)
+    {
+        Debug.Log("초기화 실패");
+    }
+
 
     //클라우드 스크립트 테스트
     public static void setTestData()
@@ -52,24 +90,59 @@ public class InputManager : MonoBehaviour
 
     }
 
+/*    public static void UpdateTestData()
+    {
+        var request = new ExecuteCloudScriptRequest
+        {
+            FunctionName = "UpdateUserInternalDataTest"
+        };
+
+        PlayFabClientAPI.ExecuteCloudScript(request, OnUpdateTestDataSuccess, OnUpdateTestDataError);
+    }
+
+    public static void OnUpdateTestDataSuccess(PlayFab.ClientModels.ExecuteCloudScriptResult result)
+    {
+        Debug.Log(result.ToString());
+
+    }*/
+
+
+
 
     public static void getTestData()
     {
         var request = new ExecuteCloudScriptRequest
         {
-            FunctionName = "InitCategoryData"
+            FunctionName = "UserLikeData"
         };
 
-        PlayFabClientAPI.ExecuteCloudScript(request, OngetTestDataSuccess, OngetTestDataError);
+        PlayFabClientAPI.ExecuteCloudScript(request, OngetTestDataSuccess2, OngetTestDataError2);
     }
 
-    public static void OngetTestDataSuccess(PlayFab.ClientModels.ExecuteCloudScriptResult result)
+    public static void OngetTestDataSuccess2(PlayFab.ClientModels.ExecuteCloudScriptResult result)
     {
-        Debug.Log(result.ToString());
+        if (result.FunctionResult.ToString() != "ResponseFail")
+        {
+            JsonObject jsonObject = (JsonObject)result.FunctionResult;
+
+            foreach (var eachData in jsonObject)
+            {
+                FeedLikeList.Add(eachData.Key);
+            }
+        }
+        else
+        {
+            Debug.Log("데이터 못불러옴");
+        }
 
     }
 
-    
+    public static void OngetTestDataError2(PlayFabError error)
+    {
+        Debug.Log("초기화 실패");
+
+    }
+
 
     /// <summary>
     /// 비디오 데이터 초기화 실패시 콜백함수
@@ -97,7 +170,7 @@ public class InputManager : MonoBehaviour
         var TitleDataKeyValueList = new List<TitleDataKeyValue>();
         var TitleDataKeyValue = new TitleDataKeyValue();
         TitleDataKeyValue.Key = "761706272";
-        TitleDataKeyValue.Value = "asdasd";
+        TitleDataKeyValue.Value = null;
         TitleDataKeyValueList.Add(TitleDataKeyValue);
 
         var request = new SetTitleDataAndOverridesRequest()
